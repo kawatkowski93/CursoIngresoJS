@@ -1,0 +1,13 @@
+
+if (edad <13){
+
+    alert con el else va a ser lo contrario edad >13
+}else {
+    if (edad>=17){
+        aler (sos adolecente)
+
+
+    }else{        
+        aler (adulto)
+    }
+}

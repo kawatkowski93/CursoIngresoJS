@@ -1,6 +1,6 @@
 function mostrar()
 {
-    var edad=document.getElementById("edad");
+    var edad=document.getElementById("edad").value;
 
     if(edad > 16) {
     
