@@ -12,6 +12,10 @@ var contadorIntentos;
 
 function comenzar()
 {
+
+  numeroSecreto=Math.floor(Math.random()*(101-1))+1;
+  console.log
+
 	//Genero el número RANDOM entre 1 y 100
 	 
 		//alert(numeroSecreto );
@@ -21,6 +25,8 @@ function comenzar()
 
 function verificar()
 {
-	
+	var numeroUsuario=document.getElementById("numero").value;
+
+  document.getElementById("intentos").value 
 	
 }

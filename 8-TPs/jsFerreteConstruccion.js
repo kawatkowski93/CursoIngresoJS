@@ -17,10 +17,16 @@ function Rectangulo ()
 }
 function Circulo () 
 { 
-    radio
-	var morstrar=Math.floor(radio*Math.PI*2);
+    var radio=parseInt(document.getElementById("Radio").value);
+	var mostrar=Math.floor(radio*Math.PI*2);
+    alert(mostrar);
 }
 function Materiales () 
 {
-	
+    var base =parseInt( document.getElementById("Largo").value);
+    var altura =parseInt(document.getElementById("Ancho").value);
+
+    var area = base*altura 
+     alert(area*2+"unidades de cemento");
+     alert(area*3+"unidades de  cal"); 
 }
